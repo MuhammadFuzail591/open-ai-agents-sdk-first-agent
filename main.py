@@ -29,13 +29,10 @@ config = RunConfig(
     tracing_disabled = True
 )
 
-
-
-
 async def main():
     agent = Agent(
         name="Assistant",
-        instructions="You are helpful Assistant.",
+        instructions="You are coding Assistant.",
         model=model
     )
 
